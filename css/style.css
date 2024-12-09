@@ -5,7 +5,7 @@
 	--text-color: #ccffff;
 	--text-style: normal;
 	--main-black: black;
-	--background: #161a1d
+	--background: #262626
 }
 
 body {
@@ -208,7 +208,7 @@ f.a-spotify {
 		height: auto;
 	}
 	.concert {
-		column-count: 4;
+		column-count: 3;
 		column-gap: 15px;
 		column-rule: 5px outset var(--text-color);
 		font-size: 0.9rem;
@@ -228,7 +228,7 @@ f.a-spotify {
 /* Reset */
 #slider {
 	width: 100%;
-	height: 500px;
+	height: 100%;
 	position: relative;
 	overflow: hidden;
 }
@@ -545,7 +545,8 @@ f.a-spotify {
 	
 .music img {
 	width: 30%;
-	box-shadow: 0px 0px 10px 10px #54a0d6;
+	box-shadow: 0px 0px 10px 10px #A04747;
+	
 }
 .music {
 	column-count: 2;
@@ -995,6 +996,15 @@ label {
 		width: 70px;
 	}
 }
+
+/*press*/
+	.resizedTextbox {
+		margin: auto;
+		width: 1000px; 
+		text-align: center;
+	
+	}
+/*press*/
 
 /*footer*/
 footer {
